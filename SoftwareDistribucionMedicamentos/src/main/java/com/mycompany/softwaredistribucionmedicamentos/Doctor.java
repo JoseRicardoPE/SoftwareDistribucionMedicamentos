@@ -24,6 +24,4 @@ public class Doctor {
         this.centroMedico = centroMedico;
     }
     
-    
-    
 }
