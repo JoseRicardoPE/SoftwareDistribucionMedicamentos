@@ -3,6 +3,10 @@ package com.mycompany.softwaredistribucionmedicamentos;
 public class AdministradorApp {
 
     private String usuario;
+    private String medicamento;
+    private boolean disponibilidad;
+    private String ordenEntrega;
+    private String inventario;
 
     public AdministradorApp(String usuario) {
         this.usuario = usuario;
@@ -17,11 +21,11 @@ public class AdministradorApp {
     }
     
     public String getConsultarMedicamento(){
-        return "medicamento";
+        return medicamento;
     }
     
-    public String getDisponibilidadMedicamento(){
-        return "disponibilidad";
+    public boolean getDisponibilidadMedicamento(){
+        return disponibilidad;
     }
     
     public void setGeneraOrdenEntrega(){
@@ -29,10 +33,10 @@ public class AdministradorApp {
     }
     
     public String getGeneraOrdenEntrega(){
-        return "ordenEntrega";
+        return ordenEntrega;
     }
     
     public String getConsultaInventario(){
-        return "inventario";
+        return inventario;
     }
 }
