@@ -2,6 +2,10 @@ package com.mycompany.softwaredistribucionmedicamentos;
 
 public class TestAppMedicamentos {
 
-    psvm
+    public static void main(String[] args) {
+        
+        AdministradorApp iniciaApp = new AdministradorApp("Admin");
+        
+    }
 
 }
