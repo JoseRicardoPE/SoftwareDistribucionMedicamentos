@@ -42,8 +42,6 @@ public class Loggin extends javax.swing.JFrame {
 
         jButton2.setText("Salir");
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 220, -1, -1));
-
-        jTextField1.setText("jTextField1");
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 140, 150, -1));
 
         jLabel1.setText("Usuario");
